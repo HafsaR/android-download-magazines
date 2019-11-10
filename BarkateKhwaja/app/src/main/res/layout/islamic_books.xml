@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/islamicBook"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Islamic Books"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#373E4A" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/sB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:id="@+id/sectionName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_weight=".5"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/sName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aqaid Books "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#373E4A" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_weight=".5"
+            android:background="@drawable/round"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/bookNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffffff" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sB"
+        android:layout_marginTop="5dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/islamicBookRv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+</RelativeLayout>

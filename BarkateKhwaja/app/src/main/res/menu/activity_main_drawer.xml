@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_magazines"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Magazines" />
+
+
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/islamic_book"
+            android:title="Islamic Books">
+
+        </item>
+
+
+        <item
+            android:id="@+id/donate"
+            android:icon="@drawable/donate"
+            android:title="Donate" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about_icon"
+            android:title="About" />
+    </group>
+
+    <item android:title="Share with your friends and family">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+
+        </menu>
+    </item>
+
+</menu>

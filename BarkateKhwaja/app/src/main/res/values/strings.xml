@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Barkat-e-Khwaja</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="address">C/O. FAIZAN-E-RAZA MANZIL
+AT &amp;amp POST : DAYADARA, Opp. Kanya Shala
+DIST: BHARUCH, GUJARAT-392020</string>
+    <string name="about">Barkat-e-Khwaja contains monthly magazine and Islamic Book and it is powered by Islamic Welfare Mission, Dayadara.</string>
+    <string name="develop_by"><b>Developed by: </b> <a href="https://sefion.com/"> Sefion IT Services</a></string>
+
+    <string name="hasim">Hasim Mustak Tanderjawala <a href="https://twitter.com/hasim751/">@hasim751</a></string>
+
+
+</resources>
